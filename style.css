@@ -1,0 +1,218 @@
+body {
+  width: 100%;
+  margin: 0 auto;
+}
+body header {
+  width: 100%;
+  margin: 0 auto;
+}
+body header nav {
+  width: 100%;
+  margin: 0 auto;
+  height: 128px;
+  background: white;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+body header nav p {
+  font-size: 22px ;
+  color: #354463;
+}
+body header nav .menu {
+  width: 30% ;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+body header nav .menu a {
+  text-decoration: none;
+  color: #354463;
+  text-align: center;
+  font-size: 16px;
+}
+body header nav .button-top {
+  text-decoration: none;
+  text-align: center;
+  color: #354463;
+  background: #C1F7D5;
+  border-radius: 100px;
+  padding: 13px;
+  font-size: 18px;
+}
+body header .top {
+  margin: 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  height: 672px;
+}
+body header .top .background-image {
+  width: 100%;
+  position: absolute;
+  height: 672px;
+  background: url(img/annie-spratt-135307-unsplash.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+body header .top .background-image .filtre {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(168, 241, 134, 0.342);
+}
+body header .top .premier-plan {
+  z-index: 1;
+  display: flex;
+}
+body header .top .premier-plan .block-top-left {
+  background: white;
+  width: 544px;
+  height: 416px;
+  margin-left: 160px;
+}
+body header .top .premier-plan .block-top-left .cadre {
+  width: 160px;
+  height: 40px;
+  background: #354463;
+  color: white;
+  font-size: 14px;
+  text-align: center;
+  margin: 0;
+  margin-left: 64px;
+  margin-top: -32px;
+}
+body header .top .premier-plan .block-top-left .cadre p {
+  padding: 11px;
+}
+body header .top .premier-plan .block-top-left div {
+  width: 416px;
+  height: 221px ;
+  margin-left: 64px;
+  margin-top: 52px;
+}
+body header .top .premier-plan .block-top-left div span {
+  color: #354463;
+  font-size: 44px;
+}
+body header .top .premier-plan .block-top-left a {
+  margin-top: 24px;
+  margin-left: 64px;
+  color: #354463;
+}
+body header .top .premier-plan .climate-change {
+  margin-left: 135px;
+}
+body header .top .premier-plan .climate-change img {
+  width: 296px;
+  height: 224px;
+}
+body header .take-action {
+  width: 100%;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+}
+body header .take-action a {
+  z-index: 1;
+  text-decoration: none;
+  width: 160px;
+  text-align: center;
+  color: white;
+  background: #354463;
+  font-size: 14px;
+  padding: 11px;
+  margin-top: -18px;
+}
+body .container {
+  width: 100%;
+  height: 262px;
+  margin-top: -21px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #C1F7D5;
+}
+body .container span {
+  width: 20%;
+  margin-left: 56px;
+  color: #354463;
+}
+body .container span h3 {
+  font-family: bold;
+  font-size: 28px;
+  margin: 0;
+  margin-bottom: 20px;
+}
+body .container span p {
+  margin: 0 auto;
+  font-size: 16px;
+}
+body .bottom {
+  width: 100%;
+  min-height: 1500px;
+  background: #354463;
+}
+body .bottom .what {
+  background: white;
+  text-decoration: none;
+  text-align: center;
+  display: inline-block;
+  color: #354463;
+  font-size: 14px;
+  width: 160px;
+  padding: 15px;
+  margin-left: 160px;
+  margin-top: 88px;
+}
+body .bottom .titre {
+  color: white;
+  font-size: 44px;
+  text-align: left;
+  margin-left: 160px;
+  margin-bottom: 250px;
+}
+body .bottom .boite {
+  width: 80%;
+  margin-left: 20%;
+  display: flex;
+}
+body .bottom .boite .card {
+  width: 320px;
+  height: 528px;
+  margin-right: 64px;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  align-items: space-around;
+}
+body .bottom .boite .card img {
+  width: 320px ;
+  height: 224px;
+  margin-top: -32px;
+  margin-left: 32px;
+}
+body .bottom .boite .card h3 {
+  color: #354463;
+  font-size: 28px;
+  font-family: bold;
+  margin-left: 32px;
+}
+body .bottom .boite .card p {
+  font-size: 16px;
+  color: #354463;
+  margin-left: 32px;
+  margin-bottom: 35px;
+  line-height: 2em;
+}
+body .bottom .boite .card a {
+  margin-left: 32px;
+  background: #C1F7D5;
+  text-decoration: none;
+  text-align: center;
+  font-size: 18px;
+  font-family: Bold;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  width: 160px;
+  border-radius: 100px;
+}
